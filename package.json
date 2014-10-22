@@ -1,6 +1,6 @@
 {
   "name": "rupert-config-angular-bootstrap",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rupert configuration to use Angular with bootstrap and ui-router.",
   "repository": "git@github.com:DavidSouther/rupert-config-angular-bootstrap.git",
   "main": "src/config.js",
