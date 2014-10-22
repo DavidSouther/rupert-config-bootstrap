@@ -1,8 +1,8 @@
 {
-  "name": "rupert-config-angular-bootstrap",
-  "version": "0.1.2",
-  "description": "Rupert configuration to use Angular with bootstrap and ui-router.",
-  "repository": "git@github.com:DavidSouther/rupert-config-angular-bootstrap.git",
+  "name": "rupert-config-bootstrap",
+  "version": "0.0.0",
+  "description": "Rupert configuration to use Bootstrap styling.",
+  "repository": "git@github.com:DavidSouther/rupert-config-bootstrap.git",
   "main": "src/config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,6 @@
   "keywords": [
     "rupert",
     "config",
-    "angular",
     "bootstrap"
   ],
   "author": "David Souther <davidsouther@gmail.com> (https://davidsouther.com/)",
