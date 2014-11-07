@@ -1,6 +1,6 @@
 {
   "name": "rupert-config-bootstrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rupert configuration to use Bootstrap styling.",
   "repository": "git@github.com:DavidSouther/rupert-config-bootstrap.git",
   "main": "src/config.js",
