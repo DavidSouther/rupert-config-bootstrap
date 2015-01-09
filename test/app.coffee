@@ -1,13 +1,12 @@
 config =
   name: 'rupert-config-bootstrap.test'
   root: __dirname
+  plugins:
+    dependencies: {}
   stassets:
     root: __dirname
-    vendors:
-      config:
-        dependencies: {}
 
-config.stassets.vendors.config.dependencies[__dirname + '/../src/config'] = yes
+config.plugins.dependencies[__dirname + '/../src/config'] = yes
 
 describe 'Rupert Config Bootstrap', ->
   app = null

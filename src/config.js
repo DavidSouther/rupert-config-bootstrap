@@ -2,16 +2,19 @@ var Path = require('path');
 
 module.exports = function (config){
 
-    config.vendors = config.vendors || {};
-    config.vendors.prefix = config.vendors.prefix || [];
-    config.vendors.prefix.unshift(Path.resolve(__dirname, '../node_modules'));
-
-    config.vendors.js = (config.vendors.js || []).concat([
-        'jquery/dist/jquery.js',
-        'bootstrap/dist/js/bootstrap.js'
+    config.append('stassets.vendors.prefix', [
+        Path.resolve(__dirname, '../node_modules')
     ]);
 
-    config.vendors.css = (config.vendors.css || []).concat([
+    config.prepend('stassets.vendors.js', [
+        'jquery/dist/jquery.js'
+    ])
+
+    config.append('stassets.vendors.js', [
+        'bootstrap/dist/js/bootstrap.js'
+    ])
+
+    config.append('stassets.vendors.css', [
         'bootstrap/dist/css/bootstrap.css',
         'bootstrap/dist/css/bootstrap-theme.css',
     ]);
